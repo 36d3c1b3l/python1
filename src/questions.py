@@ -7,7 +7,7 @@ class Question:
         print(self.question)
 
     def check_answer(self, answer):
-        if answer.lower() == self.answer.lower():
+        if answer.lower() == self.answer:
             return True
         else:
             return False
